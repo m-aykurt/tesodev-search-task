@@ -81,7 +81,7 @@ export const Button = styled.button`
 
 export const NumberResult = styled.div`
   margin: "5px 0 10px 40px";
-  padding-left: 20px;
+  padding-left: 10px;
   
 
 `;
@@ -91,7 +91,7 @@ export const ShowMore = styled.div`
   width: 79px;
   height: 17px;
   left: 526px;
-  top: 662px;
+  top: 642px;
 
   font-family: Roboto;
   font-style: normal;

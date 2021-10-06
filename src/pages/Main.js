@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Container = styled.div`
   margin-top: 10vh;
   display: flex;
-  height: 89vh;
+  min-height: 89vh;
   align-items: center;
   flex-direction: column;
 `;
@@ -23,7 +23,8 @@ const Main = () => {
     <Container>
       <Logo src="https://raw.githubusercontent.com/tesodev/jqueryLite/master/docs/img/tesodevVector.png" />
       <Title>Search Web App</Title>
-      <Card/> {/* ARAMADA CIKAN İLK 3 MADDE BURDA GÖRÜNTÜLENECEK */}
+      {/* ARAMADA CIKAN İLK 3 MADDE BURDA GÖRÜNTÜLENECEK */}
+      <Card />
     </Container>
   );
 };

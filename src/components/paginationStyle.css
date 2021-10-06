@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-right: 10rem;
+}
+.top {
+  height: 31px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 5px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+.bottom {
+  align-items: center;
+  padding: 0px 30px;
+  height: 26px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #686868;
+}
+.line {
+  width: 644px;
+  height: 0px;
+  border: 1px solid #585858;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  margin: auto;
+}
+
+.order {
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #484848;
+  margin-right: 2rem;
+}
+.menu-links {
+  border: 1px solid #484848;
+  border-radius: 4px;
+  list-style: none;
+  position: absolute;
+  z-index: 2;
+  left: 98%;
+  top: 34%;
+  color: black;
+  background: rgba(100, 100, 100, 0.08);
+}
+.menu-links li {
+  cursor: pointer;
+  font-size: 12px;
+  text-align: left;
+  padding-right: 1rem;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginationItem {
+  margin-top: 20px;
+  background: #fff;
+  border: 2px solid #666;
+  padding: 10px 15px;
+  border-radius: 10%;
+  height: 30px;
+  width: 45px;
+  position: relative;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.paginationItem span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prev,
+.next {
+  border-radius: 10%;
+  background: #fff;
+  padding: 10px;
+  /* color: blue; */
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.paginationItem.active {
+  border: 1px solid #888;
+  color: #888;
+  pointer-events: none;
+}
+
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+  box-shadow: none;
+  color: #999;
+}
+.wrapper:hover {
+  cursor: pointer;
+  background: #c4c4c4;
+  border-radius: 3%;
+}
