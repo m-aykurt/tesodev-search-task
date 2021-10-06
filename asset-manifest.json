@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tesodev-search-task/static/css/main.7620ddab.chunk.css",
+    "main.js": "/tesodev-search-task/static/js/main.bfea02c1.chunk.js",
+    "main.js.map": "/tesodev-search-task/static/js/main.bfea02c1.chunk.js.map",
+    "runtime-main.js": "/tesodev-search-task/static/js/runtime-main.9aa9b57b.js",
+    "runtime-main.js.map": "/tesodev-search-task/static/js/runtime-main.9aa9b57b.js.map",
+    "static/css/2.d4e56def.chunk.css": "/tesodev-search-task/static/css/2.d4e56def.chunk.css",
+    "static/js/2.dd16ce31.chunk.js": "/tesodev-search-task/static/js/2.dd16ce31.chunk.js",
+    "static/js/2.dd16ce31.chunk.js.map": "/tesodev-search-task/static/js/2.dd16ce31.chunk.js.map",
+    "index.html": "/tesodev-search-task/index.html",
+    "static/css/2.d4e56def.chunk.css.map": "/tesodev-search-task/static/css/2.d4e56def.chunk.css.map",
+    "static/css/main.7620ddab.chunk.css.map": "/tesodev-search-task/static/css/main.7620ddab.chunk.css.map",
+    "static/js/2.dd16ce31.chunk.js.LICENSE.txt": "/tesodev-search-task/static/js/2.dd16ce31.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9aa9b57b.js",
+    "static/css/2.d4e56def.chunk.css",
+    "static/js/2.dd16ce31.chunk.js",
+    "static/css/main.7620ddab.chunk.css",
+    "static/js/main.bfea02c1.chunk.js"
+  ]
+}
